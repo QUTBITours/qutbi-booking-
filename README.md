@@ -24,7 +24,7 @@ A seat is booked for a specific **route + travel date**. One booking may contain
 
 Routes:
 - **Nashik to Surat**
-- **Indore to Surat** — boarding Nagar must be Ammar Nagar, Nurai Nagar, or Sefi Nagar.
+- **Indore to Surat** — boarding Nagar must be Ammar Nagar, Nurai Nagar, or Saify Nagar.
 
 ---
 
@@ -53,7 +53,7 @@ The old **Bookings** tab is kept as legacy data and is treated as Nashik to Sura
 2. Delete the default `Code.gs` content and paste the contents of `apps-script/Code.gs`.
 3. At the top of the file, set:
    - `SHEET_ID` — the ID you copied above
-   - `ADMIN_PASSWORD` — your admin password (default: `qutbi@2026`)
+   - `ADMIN_PASSWORD` — your admin password (default:)
    - `API_SECRET` — a long random string (used to sign requests)
 4. Save. For an existing deployment, click **Deploy → Manage deployments → Edit → New version → Deploy**. For a brand-new deployment use **Deploy → New deployment**:
    - Type: **Web app**
